@@ -1,0 +1,116 @@
+
+body {
+
+    font-size: 10px;
+    background-color: #ccc;
+    display: flex;
+     justify-content: center;
+    align-items:  center;
+    padding: 20px;
+    
+  }
+  
+
+  /*  card template */
+  .card-container {
+
+    display: flex;
+     gap: 2em;    
+    flex-wrap: wrap;     
+    justify-content: center;
+  }   
+  
+
+  /* first card */
+  .card.card-one {
+    width:  35em;
+    height: 22em;
+    background-color:  red;
+    border: 0.2em solid black; 
+    border-radius: 1.5em;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between ;
+    overflow:  hidden ; 
+    font-family: Arial , sans-serif ; 
+  }
+  
+  /*  second card */
+  .card.card-two {   
+    width: 35em ;  
+    height: 22em;
+    background-color: blue; 
+    border: 0.2em solid black;
+    border-radius:  1.5em;            
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    overflow:  hidden;
+    font-family:  'Courier New',  Courier, monospace; 
+
+         }
+  
+  /* Header styles */
+  .card header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)); 
+    border-radius: 1.5em 1.5em 0 0;
+    height: 4em; 
+    padding: 0.5em 1em;
+     display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  
+  /* Main name (h2) styles */
+  .card header h2 {
+    font-size: 2.5em;
+     line-height: 1em;  
+    margin: 0;  
+    color: white; 
+
+  }
+  
+  /* Footer  */
+  .card footer {
+    background-image: linear-gradient(to bottom,  rgba(0, 0,  0, 0), rgba(0, 0, 0, 0.1));
+    border-radius:  0 0 1.5em 1.5em;
+    height: 4em;
+
+     padding: 0.5em;
+    display: flex;
+    align-items:  center;
+     justify-content: center;
+    color: white; 
+  }
+  
+  /* Main content  */
+  .card article { 
+    height: 12em;
+ 
+    background-color: rgba(0, 0, 0, 0.1);
+     display: flex;
+    align-items:  center; 
+     padding:  1em;
+    gap: 1em;  
+  }
+  
+
+  .card article img {
+    max-height: 100% ;  
+    flex-shrink: 0 ;
+
+  }
+   
+
+  .card article p {
+    flex: 1;
+     color: #f3f3f3;
+     font-size: 1.5em ;
+    margin:  0;
+    padding-left: 1em;
+  }
+
+
+   
+  
