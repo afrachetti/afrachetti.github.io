@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+     padding: 0;
+    height: 100vh;
+    background-image:  url('../img/Boulder_Drone_Backgound.jpeg'); /* background immage */ 
+    background-size: cover;   
+    background-position: center ;  
+     background-repeat:  no-repeat ;  
+    display: flex; 
+    justify-content: center ;
+    align-items: flex-start; 
+    position: relative; 
+}
+
+/* Overlay  */
+.overlay-content {
+    background-color: rgba(0, 0,  0, 0.5); 
+    color:  white;
+    padding: 20px ;   
+    border-radius: 10px; 
+    text-align: center;
+    width: 80% ;  
+ 
+     max-width : 600px; 
+    font-family: Arial,  sans-serif;
+     margin-top:  20px; 
+
+    position: relative; 
+}
+
+/* location box */ 
+.location-box {
+    background-color: rgba(0, 0, 0, 0.7); /* tint  */
+
+    padding: 10px;
+     border-radius:  10px;
+    margin-bottom: 10px;  
+}
+ 
+ /* city text */
+h1 {
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+    color: white;
+}
+ 
+/*  Temp box */
+.temperature-box {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly tinted box */
+
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+/* text  */
+#temperature { 
+    font-size: 64px; 
+    font-weight: bold; 
+     color: white; 
+    margin: 0;}
+
+/* photo cred */
+.photo-credit  {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5) ; 
+    padding: 10px 15px;
+     border-radius: 10px;  
+    display: flex;
+    align-items: center; 
+}
+
+/* logo */
+.logo {
+    height: 80px; 
+     margin-right: 10px; }
+
+   
+.photo-credit p {
+    margin: 0; 
+     font-size: 14px;
+    color: white;
+ 
+    font-family: Arial, sans-serif; 
+}
