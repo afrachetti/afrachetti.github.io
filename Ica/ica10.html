@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICA 10</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+             text-align: center;
+            padding-top: 70px;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin: 15px;
+             font-size: 20px;
+             cursor: pointer;
+            background-color: #8b23a8;
+            color: white;
+            border: none;
+             border-radius: 7px;
+        }
+        .image-box {
+            margin-top: 35px;
+            width: 450px;
+            
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+     <h1>Interactive Elements on the Page ICA 10</h1>
+    
+    <!-- Button to change background color -->
+     <button class="btn" id="colorButton">Change Background Color</button>
+    
+    <!-- Button to change the image -->
+    <button class="btn" id="imageButton">Change Image</button>
+    
+    <!-- Image starting -->
+    <img src="../img/1986_Porsche_944_Turbo.jpg" alt=" Image" class="image-box" id="imageBox">
+
+    <!-- JS code   -->
+    <script>
+        // background color
+
+        document.getElementById("colorButton").addEventListener("click", function() {
+            document.body.style.backgroundColor = "#ffeb3b"; // Changes to  yellow 
+        });
+ 
+      
+
+        //  change the image
+
+
+
+        document.getElementById("imageButton").addEventListener("click", function() {
+            const imageBox =  document.getElementById("imageBox");  
+
+              imageBox.src = getRandomImage();
+        });
+
+        // Function to get a random image URL
+        function getRandomImage() {
+
+            const images = [
+
+                "../img/400px-Porsche_944_LM_rear-right_Porsche_Museum.jpg", 
+                 "../img/1986_Porsche_944_Turbo.jpg", 
+                 "../img/1984_Porsche_944_coupe_(19473129259).jpg", 
+                "../img/Porsche_944_(2542110315).jpg" 
+            ];
+
+             return images[Math.floor(Math.random() * images.length)];
+ 
+        }
+
+    </script>
+</body>
+</html>
