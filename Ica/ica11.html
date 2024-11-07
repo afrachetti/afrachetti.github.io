@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/ica11.css">
+    <title>Ica 11 java script </title>
+    
+</head>
+<body>
+    <h1>Ica 11 java script funtions</h1>
+
+    <!-- tellFortune  Output -->
+    <h2>Fortune Teller Function</h2>
+    <div id="fortuneOutput"></div>
+
+    <!-- calculateDogAge  Output -->
+    <h2>Dog Age Calculator Function   </h2> 
+    <div id="dogAgeOutput"></div>
+
+
+    <!--  Input for Dog Age funct -->
+    <input type="number" id="dogAgeInput" placeholder="Enter your dog's age" />
+
+    <button onclick="calculateDogAgeFromInput()"> Calculate  Dog  Age</button>
+    <p id="dogAgeResult"></p>
+
+    <!-- reverseNumber  Output -->
+    <h2>Reverse Number function</h2>
+    <div id="reverseOutput"></div>
+
+
+    <!-- Alphabetical Order  Output -->
+    <h2>Alphabetize String  function</h2>
+    <div id="alphabetizeOutput"></div>
+
+
+
+    <!-- Capitalize Words  Output -->
+    <h2> capitalize Words funtion </h2>
+    <div id="capitalizeOutput"></div>
+
+    <!-- java script funtions  -->
+
+    <script>
+        //  tellFortune
+        function tellFortune(numChildren, partnerName, location, jobTitle) {// inputs
+            const input = `Inputs - Children: ${numChildren}, Partner: ${partnerName}, Location: ${location}, Job: ${jobTitle}`;
+             const fortune = `You will be a ${jobTitle} in ${location}, and married to ${partnerName} with ${numChildren} kids. `; 
+            document.getElementById("fortuneOutput").innerHTML += `<p>${input}</p><p>${fortune}</p>`;
+         }
+
+        
+
+
+        //  calculateDogAge
+        function calculateDogAge(puppyAge) {
+            const input = `Input - Puppy Age: ${puppyAge}`; 
+            const dogAge = puppyAge * 7;// dog = year *7 
+
+            const message = `Your dog is ${dogAge} years old in dog years!`;
+             document.getElementById("dogAgeOutput").innerHTML += `<p>${input}</p><p>${message}</p>`;
+
+        }
+
+        
+
+        //  Input for DogAge funct
+        function calculateDogAgeFromInput() {
+            const inputAge = document.getElementById("dogAgeInput").value; // input val 
+             if  (inputAge ) 
+            {
+                const dogAge = inputAge * 7;// multiple by 7
+
+                document.getElementById("dogAgeResult").innerText = `Your doggie is ${dogAge} years old in dog years!`; 
+            } 
+
+        }
+
+        //  reverseNumber
+        function reverseNumber(num) {
+            const input = ` Input - Number : ${num }`;
+             const reversed =  parseInt(num.toString().split('').reverse().join(''));
+
+            document.getElementById("reverseOutput").innerHTML += `<p>${input}</p><p>Reversed Number: ${reversed}</p>`;
+        }
+
+       
+
+        //  alphabetizeString
+        function alphabetizeString(str) {
+            const input  = `Input - String: "${str}"`;
+             const sortedString = str.split('').sort().join('');
+             document.getElementById("alphabetizeOutput").innerHTML += `<p>${input}</p><p>Alphabetized String: ${sortedString}</p>`;
+        }
+
+       
+
+        // capitalizeWords
+        function capitalizeWords(str) {
+
+            const input = `Input - String: "${str}"`;
+
+            const capitalizedString = str.split(' ')
+                                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                                        .join(' ');
+            document.getElementById("capitalizeOutput").innerHTML += `<p>${input}</p><p>Capitalized String: ${capitalizedString}</p>`;
+        }
+        // call funtions
+
+    // Call tellFortune 
+        tellFortune(3, "Alex ", "Boulder", "programer"); 
+        tellFortune(2, "Sam", "Denver ", "Photographer");
+        
+        tellFortune(4, "Billy", " Fort COllins", "Video editor ");
+
+        // Call calculateDogAge 
+        calculateDogAge(24);
+        calculateDogAge(-5);// need to write case for negitive number, should provide error meesage 
+  
+        calculateDogAge(16);
+
+
+           // Calling reverseNumber
+          reverseNumber(32243);
+        reverseNumber(12345);  
+
+         // Calling alphabetizeString 
+
+       // alphabetizeString("test 1)");
+       alphabetizeString("webmaster");
+        alphabetizeString("javascript");  
+        
+        // Calling capitalizeWords 
+        capitalizeWords("the quick brown fox");
+       // capitalizeWords("test");  
+        capitalizeWords("hello world");
+    </script>
+
+</body>
+
+</html>
