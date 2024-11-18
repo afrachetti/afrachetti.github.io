@@ -1,0 +1,51 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Styling the comic title */
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Styling the comic image */
+img {
+    max-width: 80%; /* Ensure the comic fits neatly */
+    height: auto;
+    margin: 10px auto;
+    border: 2px solid #ccc; /* Light border around the image */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling the alt text */
+#alt-text {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Styling the publication date */
+#date {
+    font-size: 18px;
+    color: gray;
+    margin: 10px 0;
+}
+
+/* Button styling */
+#new-comic-btn {
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#new-comic-btn:hover {
+    background-color: darkviolet;
+}

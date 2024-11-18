@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        { "type": "Feature", "properties": { "country": "Canada", "photos": ["canada1.jpg", "canada2.jpg"], "dates": "June 2023" }, "geometry": { "type": "Point", "coordinates": [-106.3468, 56.1304] } },
+        { "type": "Feature", "properties": { "country": "United States", "photos": ["usa1.jpg", "usa2.jpg"], "dates": "July 2023" }, "geometry": { "type": "Point", "coordinates": [-95.7129, 37.0902] } },
+        { "type": "Feature", "properties": { "country": "Mexico", "photos": ["mexico1.jpg", "mexico2.jpg"], "dates": "May 2023" }, "geometry": { "type": "Point", "coordinates": [-102.5528, 23.6345] } },
+        { "type": "Feature", "properties": { "country": "Costa Rica", "photos": ["costa_rica1.jpg", "costa_rica2.jpg"], "dates": "April 2023" }, "geometry": { "type": "Point", "coordinates": [-83.7534, 9.7489] } },
+        { "type": "Feature", "properties": { "country": "Peru", "photos": ["peru1.jpg", "peru2.jpg"], "dates": "March 2023" }, "geometry": { "type": "Point", "coordinates": [-75.0152, -9.1899] } },
+        { "type": "Feature", "properties": { "country": "Ecuador", "photos": ["ecuador1.jpg", "ecuador2.jpg"], "dates": "February 2023" }, "geometry": { "type": "Point", "coordinates": [-78.1834, -1.8312] } },
+        { "type": "Feature", "properties": { "country": "Argentina", "photos": ["argentina1.jpg", "argentina2.jpg"], "dates": "January 2023" }, "geometry": { "type": "Point", "coordinates": [-63.6167, -38.4161] } },
+        { "type": "Feature", "properties": { "country": "Iceland", "photos": ["./images/Iceland/DJI_0254 4.jpg", "./images/Iceland/IMG_1692 2.jpg"], "dates": " June 2021" }, "geometry": { "type": "Point", "coordinates": [-19.0208, 64.9631] } },
+        { "type": "Feature", "properties": { "country": "Scotland", "photos": ["scotland1.jpg", "scotland2.jpg"], "dates": "November 2022" }, "geometry": { "type": "Point", "coordinates": [-4.2026, 56.4907] } },
+        { "type": "Feature", "properties": { "country": "England", "photos": ["england1.jpg", "england2.jpg"], "dates": "March 2022" }, "geometry": { "type": "Point", "coordinates": [-1.1743, 52.3555] } },
+        { "type": "Feature", "properties": { "country": "Wales", "photos": ["wales1.jpg", "wales2.jpg"], "dates": "March 2022" }, "geometry": { "type": "Point", "coordinates": [-3.7837, 52.1307] } },
+        { "type": "Feature", "properties": { "country": "Denmark", "photos": ["denmark1.jpg", "denmark2.jpg"], "dates": "April 2022" }, "geometry": { "type": "Point", "coordinates": [9.5018, 56.2639] } },
+        { "type": "Feature", "properties": { "country": "Sweden", "photos": ["sweden1.jpg", "sweden2.jpg"], "dates": "July 2022" }, "geometry": { "type": "Point", "coordinates": [18.6435, 60.1282] } },
+        { "type": "Feature", "properties": { "country": "Italy", "photos": ["italy1.jpg", "italy2.jpg"], "dates": "May 2022" }, "geometry": { "type": "Point", "coordinates": [12.5674, 41.8719] } },
+        { "type": "Feature", "properties": { "country": "Uzbekistan", "photos": ["uzbekistan1.jpg", "uzbekistan2.jpg"], "dates": "June 2022" }, "geometry": { "type": "Point", "coordinates": [64.5853, 41.3775] } },
+        { "type": "Feature", "properties": { "country": "Austria", "photos": ["austria1.jpg", "austria2.jpg"], "dates": "April 2022" }, "geometry": { "type": "Point", "coordinates": [13.3333, 47.5162] } },
+        { "type": "Feature", "properties": { "country": "Germany", "photos": ["germany1.jpg", "germany2.jpg"], "dates": "May 2022" }, "geometry": { "type": "Point", "coordinates": [10.4515, 51.1657] } },
+        { "type": "Feature", "properties": { "country": "Hungary", "photos": ["hungary1.jpg", "hungary2.jpg"], "dates": "February 2022" }, "geometry": { "type": "Point", "coordinates": [19.5033, 47.1625] } },
+        { "type": "Feature", "properties": { "country": "Slovakia", "photos": ["slovakia1.jpg", "slovakia2.jpg"], "dates": "March 2022" }, "geometry": { "type": "Point", "coordinates": [19.699, 48.669] } },
+        { "type": "Feature", "properties": { "country": "Czechia", "photos": ["czechia1.jpg", "czechia2.jpg"], "dates": "April 2022" }, "geometry": { "type": "Point", "coordinates": [15.4729, 49.8175] } },
+        { "type": "Feature", "properties": { "country": "Greece", "photos": ["greece1.jpg", "greece2.jpg"], "dates": "Marhc 2023" }, "geometry": { "type": "Point", "coordinates": [21.8243, 39.0742] } },
+        { "type": "Feature", "properties": { "country": "Thailand", "photos": ["thailand1.jpg", "thailand2.jpg"], "dates": "June 2023" }, "geometry": { "type": "Point", "coordinates": [100.9925, 15.8700] } },
+        { "type": "Feature", "properties": { "country": "Bali", "photos": ["bali1.jpg", "bali2.jpg"], "dates": " June 2023" }, "geometry": { "type": "Point", "coordinates": [115.1889, -8.4095] } },
+        { "type": "Feature", "properties": { "country": "Japan", "photos": ["japan1.jpg", "japan2.jpg"], "dates": "July 2023" }, "geometry": { "type": "Point", "coordinates": [138.2529, 36.2048] } },
+        { "type": "Feature", "properties": { "country": "Singapore", "photos": ["singapore1.jpg", "singapore2.jpg"], "dates": "July 2023" }, "geometry": { "type": "Point", "coordinates": [103.8198, 1.3521] } },
+        { "type": "Feature", "properties": { "country": "Vietnam", "photos": ["vietnam1.jpg", "vietnam2.jpg"], "dates": "July 2023" }, "geometry": { "type": "Point", "coordinates": [108.2772, 14.0583] } },
+        { "type": "Feature", "properties": { "country": "Switzerland", "photos": ["switzerland1.jpg", "switzerland2.jpg"], "dates": "Januauary 2023" }, "geometry": { "type": "Point", "coordinates": [8.2275, 46.8182] } },
+        { "type": "Feature", "properties": { "country": "France", "photos": ["france1.jpg", "france2.jpg"], "dates": "April 2021" }, "geometry": { "type": "Point", "coordinates": [2.2137, 46.2276] } },
+        { "type": "Feature", "properties": { "country": "Turkey", "photos": ["./images/Turkey/DJI_0199 3.JPEG", "./images/Turkey/DSC00498 3.JPEG","./images/Turkey/DSC00546.JPEG"], "dates": "May 2023" }, "geometry": { "type": "Point", "coordinates": [35.2433, 38.9637] } }
+    ]
+}
+
