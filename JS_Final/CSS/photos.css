@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #6a0dad;
+    padding: 10px 15px;
+    background-color: #e6e6fa;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #d8bfd8;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6a0dad;
+    color: white;
+}
+
+.filter-section {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.filter-section label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.filter-section select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+     transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    color: #6a0dad;
+}
+
+.card-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card-content .btn:hover {
+    background-color: #530d91;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6a0dad;
+    color: white;
+    margin-top: 20px;
+}

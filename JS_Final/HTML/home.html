@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script><!-- imports leaflet for map  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+    <script src="../JS/home.js" defer></script> <!-- uses modifed examoples from leaflet documtation  -->
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+         <a href="map.html">Map</a>
+        <a href="about.html">About</a>
+        <a href="photos.html">Gallery</a>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>My Travel Photography</h1>
+        </div>
+    </div>
+
+    <div class="text-section">
+        <p> Here are a few photos from my travels </p>
+        <a href="about.html" class="btn"> Learn More About Me </a> 
+    </div>
+
+    <div class="map-section">
+         <h2>Explore My Travels </h2>
+
+        <div id="map"></div>
+    </div>
+
+    <div  class="gallery-section">
+        <h2>Featured Galleries</h2>
+         <div class="carousel-container">
+            <div class="carousel"  id="gallery-carousel">
+                <!-- Cards will be  made here from JS and json -->
+          
+            </div>
+            <div class="carousel-buttons">
+                 <button id="prev">&#10095;</button>
+                 <button id="next">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Alex F atlas 2200 web final
+    </footer>
+
+    
+</body>
+</html>

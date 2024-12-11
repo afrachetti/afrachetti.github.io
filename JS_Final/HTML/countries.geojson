@@ -1,0 +1,534 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United States",
+                "region": "North America",
+                "photos": [
+                    "../images/US/BFDEEFF042ADBB46276CB56F433968B8 2.JPG",
+                    "../images/US/DJI_0138 2.JPG"
+                ],
+                "dates": "I Live here ",
+                "flag": "https://flagcdn.com/us.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.7129,
+                    37.0902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Mexico",
+                "region": "North America",
+                "photos": [
+                    "../images/mexico/IMG_9411.JPG",
+                    "../images/mexico/IMG_9442.JPG"
+                ],
+                "dates": "March 2023",
+                "flag": "https://flagcdn.com/mx.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.5528,
+                    23.6345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Costa Rica",
+                "region": "Central America",
+                "photos": [
+                    "../images/Costa Rica/RemoteMediaFile_6553998_0_2022_01_26_17_08_46.jpg",
+                    ".costa_rica2.jpg"
+                ],
+                "dates": "April 2023",
+                "flag": "https://flagcdn.com/cr.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.7534,
+                    9.7489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Peru",
+                "region": "South America",
+                "photos": [
+                    "../images/Peru/DSC00432.jpeg",
+                    "../images/Peru/DSC00127.jpeg"
+                ],
+                "dates": "Summer 2018",
+                "flag": "https://flagcdn.com/pe.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.0152,
+                    -9.1899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Ecuador",
+                "region": "South America",
+                "photos": [
+                    "../images/EQ/DSC00610.jpeg",
+                    "../images/Peru/DSC00127.jpeg"
+                ],
+                "dates": "Summer 2018",
+                "flag": "https://flagcdn.com/ec.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.1834,
+                    -1.8312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Argentina",
+                "region": "South America",
+                "photos": [
+                    "../images/Argentina /DSC04986.JPEG",
+                    "../images/Argentina /DSC05090.JPEG"
+                ],
+                "dates": "January 2023",
+                "flag": "https://flagcdn.com/ar.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.6167,
+                    -38.4161
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Iceland",
+                "region": "Europe",
+                "photos": [
+                    "../images/Iceland/DJI_0254 4.jpg",
+                    "../images/Iceland/IMG_1692 2.jpg"
+                ],
+                "dates": "June 2021",
+                "flag": "https://flagcdn.com/is.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -19.0208,
+                    64.9631
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Scotland",
+                "region": "Europe",
+                "photos": [
+                    "../images/Scotland/DSC05184.JPEG",
+                    "../images/Scotland/DSC05188.JPEG",
+                    "../images/Scotland/DSC05243.JPEG"
+                ],
+                "dates": "March 2022",
+                "flag": "https://flagcdn.com/gb-sct.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.2026,
+                    56.4907
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "England",
+                "region": "Europe",
+                "photos": [
+                    "../images/UK/IMG_3935.jpg",
+                    "../images/UK/IMG_3945.JPG"
+                ],
+                "dates": "March 2022",
+                "flag": "https://flagcdn.com/gb-eng.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.1743,
+                    52.3555
+                ]
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Denmark",
+                "region": "Europe",
+                "photos": [
+                    "../images/DM/IMG_4494 2.jpeg"
+                ],
+                "dates": "April 2022",
+                "flag": "https://flagcdn.com/dk.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5018,
+                    56.2639
+                ]
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Italy",
+                "region": "Europe",
+                "photos": [
+                    "../images/Italy/DCBD516423775F8A4C421E098AE4BAF3.jpg",
+                    "../images/Italy/DSC05420.jpg"
+                ],
+                "dates": "May 2022",
+                "flag": "https://flagcdn.com/it.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5674,
+                    41.8719
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Uzbekistan",
+                "region": "Asia",
+                "photos": [
+                    "../images/uz/IMG_4953.jpeg",
+                    "../images/uz/IMG_4986.jpeg"
+                ],
+                "dates": "June 2022",
+                "flag": "https://flagcdn.com/uz.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    64.5853,
+                    41.3775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Austria",
+                "region": "Europe",
+                "photos": [
+                    "../images/austria/DJI_0766.JPEG"
+                ],
+                "dates": "April 2022",
+                "flag": "https://flagcdn.com/at.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3333,
+                    47.5162
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Germany",
+                "region": "Europe",
+                "photos": [
+                    "../images/Germany/IMG_4601.jpeg"
+                ],
+                "dates": "May 2022",
+                "flag": "https://flagcdn.com/de.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4515,
+                    51.1657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Hungary",
+                "region": "Europe",
+                "photos": [
+                    "../images/Hungry/D24B61A946FA389472B54FD8F26C334E.jpg",
+                    "../images/Hungry/DJI_0658.JPEG"
+                ],
+                "dates": "February 2022",
+                "flag": "https://flagcdn.com/hu.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.5033,
+                    47.1625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Slovakia",
+                "region": "Europe",
+                "photos": [
+                    "../images/slovkia/6604DAC5-36EA-4489-A73A-9E36422C3920.JPG",
+                    "../images/slovkia/BlueChurchdrone.JPEG"
+                ],
+                "dates": "March 2022",
+                "flag": "https://flagcdn.com/sk.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.699,
+                    48.669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Czechia",
+                "region": "Europe",
+                "photos": [
+                    "../images/CZ/34A2749F-FA33-4CD7-9990-4F35F0331213.JPG",
+                    "../images/CZ/BD13E4DE-AD8F-495B-A706-B6E7971D0E5B.JPG"
+                ],
+                "dates": "April 2022",
+                "flag": "https://flagcdn.com/cz.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4729,
+                    49.8175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Greece",
+                "region": "Europe",
+                "photos": [
+                    "../images/Greece/99886499-FDE4-4A9D-94F3-E1E446604FD2.JPG",
+                    "../images/Greece/DSC05311.JPEG",
+                    "../images/Greece/E5054508-5267-4F87-BACF-66E5AC79C26D.JPG"
+                ],
+                "dates": "March 2023",
+                "flag": "https://flagcdn.com/gr.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.8243,
+                    39.0742
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Thailand",
+                "region": "Asia",
+                "photos": [
+                    "../images/Thailand/IMG_7496.jpeg",
+                    "../images/Thailand/IMG_7551.jpeg"
+                ],
+                "dates": "June 2023",
+                "flag": "https://flagcdn.com/th.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.9925,
+                    15.87
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Bali",
+                "region": "Asia",
+                "photos": [
+                    "../images/Bali/DSC00647.JPEG",
+                    "../images/Bali/DSC00654.JPEG",
+                    "../images/Bali/DSC00719.JPEG"
+                ],
+                "dates": "June 2023",
+                "flag": "https://flagcdn.com/id.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.1889,
+                    -8.4095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "region": "Asia",
+                "photos": [
+                    "../images/Japan/IMG_8126.jpeg",
+                    "../images/Japan/IMG_8199.jpg"
+                ],
+                "dates": "July 2023",
+                "flag": "https://flagcdn.com/jp.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.2529,
+                    36.2048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Singapore",
+                "region": "Asia",
+                "photos": [
+                    "../images/singapore/IMG_7832.jpeg",
+                    "../images/singapore/IMG_7835.jpeg",
+                    "../images/singapore/IMG_7847.jpeg"
+                ],
+                "dates": "July 2023",
+                "flag": "https://flagcdn.com/sg.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8198,
+                    1.3521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Vietnam",
+                "region": "Asia",
+                "photos": [
+                    "../images/vietnam/IMG_7943.jpeg",
+                    "../images/vietnam/IMG_7975.jpeg"
+                ],
+                "dates": "July 2023",
+                "flag": "https://flagcdn.com/vn.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.2772,
+                    14.0583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Switzerland",
+                "region": "Europe",
+                "photos": [
+                    "../images/SZ/IMG_9075.JPG",
+                    "../images/SZ/IMG_9013.JPG"
+                ],
+                "dates": "January 2023",
+                "flag": "https://flagcdn.com/ch.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.2275,
+                    46.8182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "France",
+                "region": "Europe",
+                "photos": [
+                    "../images/SZ/IMG_9013.JPG",
+                    "../images/France/IMG_4547.JPG"
+                ],
+                "dates": "April 2021",
+                "flag": "https://flagcdn.com/fr.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2137,
+                    46.2276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Turkey",
+                "region": "Middle East",
+                "photos": [
+                    "../images/Turkey/DJI_0199 3.JPEG",
+                    "../images/Turkey/DSC00498 3.JPEG",
+                    "../images/Turkey/DSC00546.JPEG"
+                ],
+                "dates": "May 2023",
+                "flag": "https://flagcdn.com/tr.svg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.2433,
+                    38.9637
+                ]
+            }
+        }
+    ]
+}
+
+
+
+ 
